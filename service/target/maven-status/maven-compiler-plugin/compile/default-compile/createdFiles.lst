@@ -1,0 +1,8 @@
+com\offcn\mapper\AddressMapper.class
+com\offcn\service\impl\AddressServiceImpl.class
+com\offcn\service\AddressService.class
+com\offcn\controller\UserController.class
+com\offcn\service\UserService.class
+com\offcn\UserServiceApplication.class
+com\offcn\service\impl\UserServiceImpl.class
+com\offcn\mapper\UserMapper.class

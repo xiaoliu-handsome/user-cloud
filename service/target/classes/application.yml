@@ -1,0 +1,23 @@
+#数据库
+spring:
+  application:
+    name: user-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/mysql1?serverTimezone=GMT%2B8&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 232604
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
+ribbon:
+  eureka:
+    enabled: true
+management:
+  endpoint:
+    web:
+      exposure:
+        include:'*'
